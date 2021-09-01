@@ -1,7 +1,8 @@
 body{
 	margin: 0;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Forum', cursive;
 	font-size: 20px;
+	line-height: 30px;
 }
 
 header{
@@ -9,6 +10,9 @@ header{
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 12px;
+}
+h2{
+	margin: 40px 0 10px;
 }
 
 h1, h2{
@@ -33,4 +37,41 @@ main{
 	max-width: 3000px;
 	margin: 0 auto;
 	padding: 0 30px 30px 30px;
+}
+
+p{
+	font-size: 20px;
+	font-family: 'Forum', cursive;
+	text-align: justify;
+}
+
+a main{
+	color: midnightblue;
+	font-family: "Lobster Two", cursive;
+}
+
+a:hover {
+	background-color: lavenderblush;
+}
+
+footer{
+	background-color: #43065E;
+	max-width: 3000px;
+	margin: 0 auto;
+	padding: 2px 2px 1px 20px;
+	color: white;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: dimgrey;
+	font-style: italic;
+	margin-top: 0px;
 }
