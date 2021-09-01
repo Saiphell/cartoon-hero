@@ -1,0 +1,23 @@
+body{
+	background-color: lightgoldenrodyellow;
+}
+h1{
+	font-size: 40px;
+	color: darkturquoise;
+}
+h2{
+	font-size: 24px;
+	color: hotpink;
+}
+.italic{
+	font-style: italic;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.italic.uppercase{
+	color: darkred;
+}
+h1 span{
+	color: violet;
+}
